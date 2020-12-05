@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>My Task</title>
+</head>
+
+<body id="bodyDesign">
+    <div id="main">
+        <!-- <h3 id="headline"> WELCOME TO TASK MENEGER </h3> -->
+        <form id="addTask" class="form-style-4">
+            <h1 id="formHeadline">GET ON THE LIST</h1>
+
+            <div class="inputDes">
+                <span class="error" id="NameError"></span><br />
+                <input class="inputTag" id="nameInput" placeholder="  My Task" type="text" name="discription"
+                    />
+
+            </div>
+
+            <div class="inputDes">
+                <span class="error" id="TaskError"></span><br />
+                <input class="inputTag" id="taskInput" placeholder="  What To Do?" type="text" name="text" />
+
+            </div>
+
+
+            <div class="inputDes">
+                <span class="error" id="dateError"></span><br />
+                <input class="inputTag" id="dateInput" placeholder="ooo"  type="date" name="date" />
+            </div>
+
+            <div class="inputDes">
+                <span class="error" id="timeError"></span><br />
+                <input  class="inputTag" id="timeInput" type="time" name="time" />
+
+            </div><br /><br />
+
+
+
+            <button class="btnDes" id="btn" type="submit">ADD IT NOW</button>
+            <button class="btnDes" type="reset">RESET</button>
+
+
+
+        </form>
+        <h4 id="headline2"> MY TASKS </h4>
+        <div id="taskList">
+
+
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+    </div>
+
+</body>
+
+</html>
